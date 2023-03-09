@@ -4,7 +4,7 @@ import (
 	"github.com/ScottAI/chatserver/server"
 )
 
-func main()  {
+func main() {
 	var s server.Server
 	s = server.NewServer()
 	s.Listen(":3333")
